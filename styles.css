@@ -3,7 +3,7 @@
     background: url(images/div1.jpg);
     background-size: cover;
     height: 100vh;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-position: center;
     padding-top: 20px;
 
@@ -28,9 +28,9 @@
     padding-left: 5px;
 }
 .home{
-    color:#ffffff !important;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    color:#fff !important;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 19px;
     margin: 10px;
     text-transform: uppercase;
     padding-top:50px;
@@ -40,6 +40,45 @@
 .home:hover{
   color:#fe9621 !important;
 }
+/* sticky nav */
+.sticky-nav{
+  top:0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.98) !important;
+  width:100%;
+  position: fixed !important;
+  box-shadow: 0px 2px 2px #efefef;
+  padding: 3px 0px 0px 3px;
+  margin-right: 0px;
+  margin-left: 0px;
+  z-index: 1;
+}
+.sticky-nav .div2{
+    padding-top: 15px;
+}
+.sticky-nav .home{
+  color:#555 !important;
+  font-family: 'Baloo Chettan 2', cursive;
+  padding-top: 0px !important;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-inline-start: 40px;
+  transition: color 0.3s;
+}
+.sticky-nav .home:hover{
+  color:#fe9621 !important;
+}
+.sticky-nav .Pizza{
+    color:#fe9621 !important;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #000;
+
+}
+
+
+
 .p1{
 
     color: #DC7633;
@@ -130,7 +169,7 @@ hr{
 /** forms**/
 *:focus{ outline: none};
 #form{
-  background-color:#e5e5e5 !important;
+  background-color:#e2e2e2 !important ;
 }
 .contact-form{
 width: 60%;
@@ -170,7 +209,16 @@ label{
   vertical-align: center !important;
 }
 
+/* carousel*/
+.carousel{
+  background-color: #efefef;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.carousel-inner{
+  padding: 20px !important;
+}
 
 
 

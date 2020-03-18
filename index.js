@@ -21,8 +21,21 @@ var waypoint = $('#form').waypoint(function(direction){
   $('.button-js').fadeIn().addClass('animated bounceInUp');
 
 }, {
-  offset:'40%'
+  offset:'52%'
 })
+ $('#features').waypoint(function(direction){
+  if(direction == "down"){
+    $('nav').removeClass('container');
+    $('nav').addClass('sticky-nav');
+  }
+  else{
+    $('nav').removeClass('sticky-nav');
+    $('nav').addClass('container');
+  }
+},{
+  offset: "60px;"
+});
+
 
 })
 var app = document.getElementById("title");
